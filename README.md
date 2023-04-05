@@ -10,6 +10,6 @@ Afterwards, you should create a configuration file .eslintrc.js in the root of t
 
 ```javascript
 module.exports = {
-  extends: ["./node_modules/eslint-fv/.eslintrc.js"],
+  extends: ["./node_modules/eslint-fv/index.ts"],
 };
 ```
