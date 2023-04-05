@@ -3,13 +3,13 @@
 ## Install
 
 ```shell
-npx install-peerdeps --dev eslint-fv
+npm install eslint-fv
 ```
 
-Luego deberás crear un archivo de config `.eslintrc.js` es el root del proyecto y copiar lo siguiente.
+Afterwards, you should create a configuration file .eslintrc.js in the root of the project and copy the following code:
 
 ```javascript
 module.exports = {
-  extends: ["eslint-fv"],
+  extends: ["./node_modules/eslint-fv/.eslintrc.js"],
 };
 ```
